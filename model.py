@@ -151,6 +151,7 @@ def train_model():
 if __name__ == "__main__":
     model = train_model()
     
+    #initial testing
     #model = load_model('my_model.h5')
     #vid_path = '/home/rohit/projects/NNFL/project/data/3.avi'
     #predict(vid_path, model)
