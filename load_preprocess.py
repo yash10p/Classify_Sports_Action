@@ -23,11 +23,13 @@ print classes
 
 def preprocess(img):
     cv2.normalize(img, img, 0, 255, cv2.NORM_MINMAX)
+    
+    # OPTIONAL:
     #img = img.astype('float32')
     #img = img/255.0
     #ret, img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU) #apply binary threshold
 
-    resz_img = cv2.resize(img, (128, 128)) #resize it to 25*25 image
+    resz_img = cv2.resize(img, (128, 128)) #resize it to 128*128 image
 
     return resz_img
 
