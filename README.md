@@ -2,8 +2,8 @@ Action Classifier in Video using Convolutional Neural Network and LSTMs
 on sports data.
 
 ## Architecture
-2-Stream CNN approach was followed with one CNN taking RGB images resized
-to other taking optical flow generated from the  image as part of preprocessing.
+2-Stream CNN approach was followed with one CNN taking resized RGB images
+to the other taking optical flow generated from the image as part of preprocessing.
 
 The RGB CNN learns object detection whereas the optical flow CNN learns
 motion in the frames.
